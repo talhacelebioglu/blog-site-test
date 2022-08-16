@@ -1,0 +1,53 @@
+.navbar {
+  background-color: #533e85;
+}
+
+header .btn {
+  color: #c1f8cf;
+  background-color: #4fd3c4;
+}
+
+.main-1 {
+  background-color: #488fb1;
+  /* color: #C1F8CF; */
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover img {
+  opacity: 0.85;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
+}
+
+#map {
+  height: 450px;
+}
+
+.col-md-9 .card img {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .main-background {
+    max-height: 25vh !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 32vh;
+  }
+
+  #map {
+    height: 100%;
+  }
+}
